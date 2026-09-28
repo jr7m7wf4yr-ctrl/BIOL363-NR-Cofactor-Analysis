@@ -1,0 +1,10 @@
+stage,count
+Starting PDB structures,1994
+Successfully processed,1993
+Long receptor chain present,1993
+Passed LBD / Zn-finger filter,1921
+Short peptide present,934
+Basic filtered structures,924
+LXXLL / CoRNR motif found,722
+Strong cofactor candidates,713
+Candidate ligand present,1871
