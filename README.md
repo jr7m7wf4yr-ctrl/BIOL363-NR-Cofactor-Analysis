@@ -41,55 +41,6 @@ All supplied CSVs are in `data/snapshot/`.
 
 The files ending in ` (1).csv` in Downloads were byte-identical duplicates, so only one copy of each is included. Separate review tables can be recovered from the full audit and were not duplicated here. The large structure folder, ZIP archives, presentation drafts and previous-cohort reports are not included. Stage 3 can download structures again.
 
-## What changed during cleanup
-
-- Removed decorative comment banners, repeated spacing, emoji in status messages and an exploratory VDR API call. VDR is still included in the receptor list.
-- Removed a displayed example dictionary from the chat that was explanatory text, not executable code.
-- Formatted the recovered code consistently and removed unused imports. Short comments remain where a scientific assumption needs explanation.
-- Moved package installation out of the pipeline scripts into `requirements.txt` and the notebook setup cell.
-- Replaced Colab-only `/content/` paths with repository-relative paths and optional environment variables.
-- Replaced notebook-only table display calls with a small console-compatible helper.
-- Corrected the `MMCIF2Dict` import to import the callable class. The old import referred to a module; its error was caught and local descriptions were silently left empty. Local descriptions and intermediate annotation-based classifications may therefore differ on a new run.
-
-The receptor list, chain-length cutoffs, zinc rule, motif patterns, contact cutoff and final motif-plus-contact selection rule were retained. Original CSVs were not recalculated or relabelled.
-
-## How to run
-
-Use Python 3.9 or newer. From the repository folder:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-python scripts/01_inventory.py
-python scripts/02_uniprot.py
-python scripts/03_filter.py
-python scripts/04_peptides.py
-python scripts/05_annotations.py
-```
-
-New files are written to `data/generated/`. The snapshot folder is not overwritten. Internet access is needed for RCSB and UniProt requests. A full run downloads many structures and can take time; current database contents may produce different counts from the saved snapshot. Inspect error CSVs after a run.
-
-For Jupyter, open the notebook from this repository. In Colab, first clone the repository and change the working directory to the clone; uploading the notebook alone does not include its scripts.
-
-To reuse an existing structure folder, set `NR_STRUCTURE_DIR` to its path before running stages 3 and 4. To choose a different generated-data folder, set `NR_DATA_DIR`. Avoid pointing `NR_DATA_DIR` at `data/snapshot/` unless intentionally replacing saved outputs.
-
-## How to interpret this dataset
-
-- A chain of at least 50 residues is treated as a receptor candidate, and a chain of 4–49 residues as a peptide candidate. Length alone does not verify receptor identity.
-- Two or more zinc residues trigger the likely-DBD flag. This is a practical screen, not a validated LBD annotation.
-- Contacts use a 4 Å cutoff in the first model and are pooled across long-chain candidates. Contact strings preserve chain labels, but the code does not resolve a unique, independently verified receptor partner for every peptide.
-- Cofactor naming uses entity descriptions and entry titles. Titles can mention other chains. Generic labels and conflicting matches remain in the data.
-- In the final snapshot, 170 rows are marked `UNRESOLVED`. Another 125 rows have only a generic coactivator/corepressor label, and 3 have two specific names. The existing `IDENTIFIED` label therefore does not always mean an exact, unambiguous protein identity.
-- This recovered code does not implement canonical UniProt residue-number mapping, functional ligand-state classification, or geometry analysis. Any later team work on those steps is separate from the files included here.
-
-## Checks performed during cleanup
-
-- All scripts and notebook code cells passed syntax checks.
-- Included CSV copies matched their source files byte for byte; the headline counts were checked against those files.
-- Stages 3–5 were run on a small sample using local 1T63 and 4EM9 structures and live RCSB annotations. 1T63 produced one retained cofactor record. 4EM9 was excluded at basic screening because it lacked a short peptide partner.
-- The full inventory and all 924 candidate structures were not rerun during cleanup.
-
 ## Data sources
 
 - [RCSB PDB](https://www.rcsb.org/)
