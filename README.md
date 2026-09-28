@@ -1,16 +1,4 @@
-# BIOL 363 — Nuclear Receptor Cofactor Dataset
-
-This is the code and saved data for Aruzhan Yerzhanova's dataset-construction work in **Nuclear Receptor Coactivator/Corepressor Binding Pattern Analysis**. This README is a guide to what is in the repository and what was changed during cleanup. The later geometry and comparison work belongs to the other parts of the team project.
-
-## Start here
-
-The main result is `data/snapshot/confirmed_cofactor_complexes_FIXED.csv`: **718 unique PDB entries, 1,251 peptide–receptor records and 30 receptor labels**. A structure can contribute several records, so records and structures are different counts.
-
-These are saved results from the original run, not results of a new full download. The CSV contents were preserved exactly. The filename says “confirmed”, but selection confirms the pipeline's motif-plus-contact criteria, not experimental proof of every cofactor identity.
-
-## Code
-
-The code was recovered from the “Analyze Project Pipeline” chat and organised into five stages:
+# BIOL 363 — Nuclear Receptor Cofactor Dataset## Code
 
 | File in `scripts/` | Purpose |
 | --- | --- |
