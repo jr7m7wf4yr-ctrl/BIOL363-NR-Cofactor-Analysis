@@ -1,0 +1,6 @@
+receptor,groups,not_grouped,match_with_motif_ARI,match_with_crystal_form_ARI
+PPARα,2,23,0.91,-0.01
+RORγ,3,9,0.82,0.81
+RXRα,2,4,1.0,0.08
+PPARγ,2,0,0.26,0.08
+FXR,2,1,-0.05,0.05

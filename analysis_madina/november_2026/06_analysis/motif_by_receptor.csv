@@ -1,0 +1,52 @@
+receptor,group,motif,cofactor,units
+PPARα,group 1,LKKLL,PGC-1α,10
+PPARα,group 2,LHRLL,SRC-1,7
+PPARα,group 2,LRYLL,SRC-1,1
+PPARα,not grouped,LHRLL,SRC-1,17
+PPARα,not grouped,LKKLL,PGC-1α,2
+PPARα,not grouped,LMNLL,MED1 (TRAP220),1
+PPARα,not grouped,LQKLL,PGC-1β,1
+PPARα,not grouped,LRYLL,SRC-1,1
+PPARα,not grouped,LSELL,CBP,1
+RORγ,group 1,LHRLL,SRC-2,24
+RORγ,group 1,LHRLL,SRC-1,4
+RORγ,group 1,LHRLL,?,2
+RORγ,group 1,LQQLL,SRC-1,1
+RORγ,group 2,LLQLL,RIP140,23
+RORγ,group 3,LHRLL,SRC-2,4
+RORγ,group 3,LKKLL,SRC-1,2
+RORγ,not grouped,LLSLL,?,6
+RORγ,not grouped,LHRLL,SRC-2,3
+RXRα,group 1,LHRLL,SRC-2,62
+RXRα,group 1,LHRLL,SRC-1,16
+RXRα,group 2,LRYLL,SRC-2,4
+RXRα,not grouped,LHRLL,SRC-1,3
+RXRα,not grouped,LHRLL,SRC-2,1
+PPARγ,group 1,LHRLL,SRC-1,52
+PPARγ,group 1,LKKLL,PGC-1α,24
+PPARγ,group 1,LVQLL,SRC-1,6
+PPARγ,group 1,LMNLL,MED1 (TRAP220),4
+PPARγ,group 1,LSELL,CBP,3
+PPARγ,group 1,LEAII,SMRT,2
+PPARγ,group 1,LASLL,RIP140,1
+PPARγ,group 1,LARLL,NFKBIB,1
+PPARγ,group 1,LHRLL,SRC-2,1
+PPARγ,group 1,LQQLL,SRC-1,1
+PPARγ,group 2,LEDII,NCoR,14
+PPARγ,group 2,LEAII,SMRT,6
+FXR,group 1,LRYLL,SRC-1,88
+FXR,group 1,LRYLL,SRC-2,25
+FXR,group 1,LHRLL,SRC-1,6
+FXR,group 1,LHRLL,SRC-2,1
+FXR,group 1,LRYLL,?,1
+FXR,group 1,LKKLL,PGC-1α,1
+FXR,group 2,LRYLL,SRC-1,5
+FXR,group 2,LRYLL,SRC-2,1
+FXR,not grouped,LRYLL,SRC-2,1
+ERα,"all units, no groups",LHRLL,SRC-2,344
+ERα,"all units, no groups",LHRLL,SRC-1,35
+ERα,"all units, no groups",LHRLL,SRC-3 (AIB1/RAC3),3
+ERα,"all units, no groups",LHKLL,SRC-2,2
+ERα,"all units, no groups",LCRLL,?,2
+ERα,"all units, no groups",LRYLL,SRC-2,2
+ERα,"all units, no groups",LXRLL,?,1

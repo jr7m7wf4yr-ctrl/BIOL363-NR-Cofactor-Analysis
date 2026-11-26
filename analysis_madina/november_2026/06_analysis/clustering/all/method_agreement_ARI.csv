@@ -1,0 +1,7 @@
+,K-means (partitioning),Ward (hierarchical),BIRCH (tree / CF),HDBSCAN (density),SOM (neural),Gaussian mixture (model-based)
+K-means (partitioning),1.0,1.0,1.0,0.924,0.915,0.043
+Ward (hierarchical),1.0,1.0,1.0,0.924,0.915,0.043
+BIRCH (tree / CF),1.0,1.0,1.0,0.924,0.915,0.043
+HDBSCAN (density),0.924,0.924,0.924,1.0,0.847,0.046
+SOM (neural),0.915,0.915,0.915,0.847,1.0,0.049
+Gaussian mixture (model-based),0.043,0.043,0.043,0.046,0.049,1.0

@@ -1,0 +1,24 @@
+units 1103, from weaker structures 45 (4%) in 25 PDB entries
+resolution median 2.20 A, range 1.25-3.70 A
+
+Spearman rho, resolution vs descriptor:
+  angle_H3_H12     -0.16 (p = 0.000)
+  angle_H12_motif  -0.18 (p = 0.000)
+  angle_H3_motif   -0.02 (p = 0.481)
+  dist_H12_motif   -0.02 (p = 0.498)
+  dist_H3_motif    -0.05 (p = 0.073)
+  dist_H3_H12      -0.10 (p = 0.001)
+
+== all: 1103 units, weaker 45
+  HDBSCAN (density): noise 4, weaker among noise 25% vs 4% overall
+  Grid (grid-based, PC1-PC2): noise 33, weaker among noise 12% vs 4% overall
+  HDBSCAN (density): same clusters without the weaker units? ARI 1.00
+  Spectral (graph-based): same clusters without the weaker units? ARI 1.00
+  K-means (partitioning): same clusters without the weaker units? ARI 1.00
+
+== coactivator: 1076 units, weaker 45
+  HDBSCAN (density): noise 51, weaker among noise 16% vs 4% overall
+  Grid (grid-based, PC1-PC2): noise 50, weaker among noise 10% vs 4% overall
+  HDBSCAN (density): same clusters without the weaker units? ARI 0.95
+  Spectral (graph-based): same clusters without the weaker units? ARI 1.00
+  K-means (partitioning): same clusters without the weaker units? ARI 0.95

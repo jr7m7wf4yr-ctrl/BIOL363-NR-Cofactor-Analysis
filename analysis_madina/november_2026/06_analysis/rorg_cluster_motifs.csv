@@ -1,0 +1,10 @@
+cluster,motif,cofactor_v2,units
+-1,LHRLL,SRC-2 (TIF2/GRIP1),3
+-1,LLSLL,unresolved,6
+0,LLQLL,RIP140,23
+1,LHRLL,SRC-2 (TIF2/GRIP1),4
+1,LKKLL,SRC-1,2
+2,LHRLL,SRC-1,4
+2,LHRLL,SRC-2 (TIF2/GRIP1),24
+2,LHRLL,unresolved,2
+2,LQQLL,SRC-1,1

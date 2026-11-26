@@ -1,0 +1,7 @@
+descriptor,family_accuracy_lost_when_shuffled
+dist_H3_H12,0.3008838175035585
+dist_H12_motif,0.2534189537424515
+angle_H12_motif,0.14310638342374923
+dist_H3_motif,0.10081919280610838
+angle_H3_motif,0.05629068723333222
+angle_H3_H12,0.05612626230302409

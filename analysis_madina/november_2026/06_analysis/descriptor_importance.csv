@@ -1,0 +1,22 @@
+descriptor,label,set,epsilon2_receptors,cliffs_delta_coact_vs_corep,family_importance_6,family_importance_16,closest_helix_descriptor,spearman_with_closest,rank_epsilon2_receptors,rank_cliffs_delta_coact_vs_corep,rank_family_importance_16,rank_family_importance_6
+dist_H3_H12,H3–H12 distance,helix (6),0.753,1.0,0.287,0.044,,,1,2,3,1.0
+angle_H3_H12,H3–H12 angle,helix (6),0.703,0.71,0.217,0.048,,,2,13,2,2.0
+dist_H3_motif,H3–motif distance,helix (6),0.44,0.745,0.13,0.029,,,14,12,8,5.0
+angle_H12_motif,H12–motif angle,helix (6),0.503,0.997,0.139,0.014,,,11,7,12,4.0
+dist_H12_motif,H12–motif distance,helix (6),0.494,0.701,0.142,0.032,,,13,14,6,3.0
+angle_H3_motif,H3–motif angle,helix (6),0.536,0.183,0.105,0.03,,,7,18,7,6.0
+d_K_E,Lys clamp – Glu AF-2,pairwise (new),0.605,1.0,,0.033,dist_H3_H12,0.607,4,5,4,
+d_K_L1,Lys clamp – L1,pairwise (new),0.508,1.0,,0.006,dist_H3_H12,0.454,9,2,17,
+d_K_L4,Lys clamp – L4,pairwise (new),0.655,0.998,,0.026,dist_H3_H12,0.477,3,6,9,
+d_K_L5,Lys clamp – L5,pairwise (new),0.588,1.0,,0.032,dist_H3_H12,0.266,5,2,5,
+d_E_L1,Glu AF-2 – L1,pairwise (new),0.508,0.9,,0.013,dist_H12_motif,0.765,10,10,13,
+d_E_L4,Glu AF-2 – L4,pairwise (new),0.511,0.7,,0.009,dist_H12_motif,0.674,8,15,16,
+d_E_L5,Glu AF-2 – L5,pairwise (new),0.498,0.823,,0.01,dist_H12_motif,0.76,12,11,14,
+d_L1_L4,L1 – L4,pairwise (new),0.263,0.065,,-0.004,angle_H3_motif,-0.264,18,19,21,
+d_L1_L5,L1 – L5,pairwise (new),0.123,0.509,,-0.0,dist_H3_motif,-0.121,21,16,20,
+d_L4_L5,L4 – L5,pairwise (new),0.146,0.009,,0.004,dist_H3_H12,-0.168,20,21,18,
+d_K_C,centroid – Lys clamp,pairwise (new),0.335,0.046,,0.019,dist_H3_H12,0.119,17,20,10,
+d_E_C,centroid – Glu AF-2,pairwise (new),0.584,0.462,,0.073,angle_H3_H12,0.122,6,17,1,
+d_L1_C,centroid – L1,pairwise (new),0.401,0.99,,0.001,angle_H3_H12,0.226,15,9,19,
+d_L4_C,centroid – L4,pairwise (new),0.346,0.993,,0.01,angle_H3_H12,0.448,16,8,15,
+d_L5_C,centroid – L5,pairwise (new),0.26,1.0,,0.016,angle_H3_H12,0.245,19,4,11,

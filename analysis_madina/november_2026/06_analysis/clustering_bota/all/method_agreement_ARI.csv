@@ -1,0 +1,7 @@
+,HDBSCAN (density),"Grid (grid-based, PC1-PC2)",K-means (partitioning),Ward (hierarchical),Spectral (graph-based),SOM (neural)
+HDBSCAN (density),1.0,0.675,0.977,0.977,0.977,0.957
+"Grid (grid-based, PC1-PC2)",0.675,1.0,0.656,0.656,0.656,0.675
+K-means (partitioning),0.977,0.656,1.0,1.0,1.0,0.978
+Ward (hierarchical),0.977,0.656,1.0,1.0,1.0,0.978
+Spectral (graph-based),0.977,0.656,1.0,1.0,1.0,0.978
+SOM (neural),0.957,0.675,0.978,0.978,0.978,1.0

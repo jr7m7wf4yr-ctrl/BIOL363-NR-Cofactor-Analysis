@@ -1,0 +1,12 @@
+descriptor,family_accuracy_lost_when_shuffled
+h12core_vs_motif_axis_deg,0.1975285319309418
+h12_vs_motif_axis_deg,0.054048117635795444
+h12_center_to_centroid_A,0.037259810388069275
+h12core_axisline_to_motif_A,0.03520366815730245
+h12_vs_centroid_motif_deg,0.030567761782901326
+h12core_vs_centroid_motif_deg,0.028435478077127735
+centroid_to_motif_A,0.02360997717973777
+h12_axisline_to_motif_A,0.023468171732295037
+h12_center_to_motif_A,0.011728103898499227
+h12_axisline_to_centroid_A,0.008114937021775176
+n_contact_residues,0.003140387124836881

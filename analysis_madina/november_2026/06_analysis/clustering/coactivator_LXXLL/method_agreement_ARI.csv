@@ -1,0 +1,7 @@
+,Spectral (graph-based),K-means (partitioning),Ward (hierarchical),BIRCH (tree / CF),SOM (neural),Gaussian mixture (model-based)
+Spectral (graph-based),1.0,0.838,0.912,0.865,0.826,0.464
+K-means (partitioning),0.838,1.0,0.839,0.815,0.8,0.477
+Ward (hierarchical),0.912,0.839,1.0,0.876,0.823,0.451
+BIRCH (tree / CF),0.865,0.815,0.876,1.0,0.765,0.499
+SOM (neural),0.826,0.8,0.823,0.765,1.0,0.397
+Gaussian mixture (model-based),0.464,0.477,0.451,0.499,0.397,1.0

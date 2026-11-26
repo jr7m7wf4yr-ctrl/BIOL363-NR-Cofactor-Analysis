@@ -1,0 +1,20 @@
+units: 1059
+NR family predicted (balanced accuracy): 6 descriptors 0.69, 21 descriptors 0.78
+HDBSCAN all units, 6 descriptors: clusters [1035, 21], noise 3
+HDBSCAN all units, 21 descriptors: clusters [973, 25, 22], noise 39
+agreement 6 vs 21 (ARI, all units incl. noise as a group): 0.41
+Lys clamp – Glu AF-2: Spearman +0.61 with H3–H12 distance
+Lys clamp – L1: Spearman +0.45 with H3–H12 distance
+Lys clamp – L4: Spearman +0.48 with H3–H12 distance
+Lys clamp – L5: Spearman +0.27 with H3–H12 distance
+Glu AF-2 – L1: Spearman +0.76 with H12–motif distance
+Glu AF-2 – L4: Spearman +0.67 with H12–motif distance
+Glu AF-2 – L5: Spearman +0.76 with H12–motif distance
+L1 – L4: Spearman -0.26 with H3–motif angle
+L1 – L5: Spearman -0.12 with H3–motif distance
+L4 – L5: Spearman -0.17 with H3–H12 distance
+centroid – Lys clamp: Spearman +0.12 with H3–H12 distance
+centroid – Glu AF-2: Spearman +0.12 with H3–H12 angle
+centroid – L1: Spearman +0.23 with H3–H12 angle
+centroid – L4: Spearman +0.45 with H3–H12 angle
+centroid – L5: Spearman +0.24 with H3–H12 angle

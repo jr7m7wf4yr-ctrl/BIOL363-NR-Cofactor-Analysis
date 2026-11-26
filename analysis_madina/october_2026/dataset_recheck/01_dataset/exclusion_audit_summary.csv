@@ -1,0 +1,19 @@
+stage,category,verdict,rows,pdbs
+1 parse,mmCIF parse error,likely_error,1,1
+2 zinc,DNA-binding domain only,correct,67,62
+2 zinc,multidomain receptor (DBD + LBD),likely_error,14,9
+2 zinc,multidomain receptor (DBD + LBD),review,2,2
+3 no_peptide,cofactor fused to the receptor chain,likely_error,20,20
+3 no_peptide,no cofactor in structure (stated in title),correct,15,14
+3 no_peptide,no cofactor peptide in structure,correct,952,947
+3 no_peptide,title mentions a cofactor but no peptide chain,review,15,15
+4 no_motif,"FxxLF motif (AR-type coactivator); out of scope: only LXXLL and CoRNR (prof, 28 Oct)",correct,10,10
+4 no_motif,LXXLL variant (one hydrophobic swapped); out of scope: exact LXXLL/CoRNR only (prof),correct,10,7
+4 no_motif,modified-residue (stapled) coactivator peptide,likely_error,12,7
+4 no_motif,"modified-residue peptide, not a cofactor (e.g. phosphopeptide)",correct,165,148
+4 no_motif,no receptor contact,review,3,3
+4 no_motif,no recognisable cofactor motif,review,38,30
+4 no_motif,"very short peptide, motif not resolved",review,12,9
+5 curation,false SHP receptor label; long chain may be GR or ancestral corticoid receptor,review,33,10
+5 curation,non-human receptor chain,correct,5,2
+6 geometry_qc,peptide not in AF-2 groove,review,7,6

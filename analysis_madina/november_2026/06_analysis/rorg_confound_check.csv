@@ -1,0 +1,7 @@
+,RIP140_median,SRC_median,difference,IQR_all_coactivators,difference_in_IQR
+angle_H3_H12,78.59,74.15,4.44,6.7,0.66
+angle_H12_motif,120.61,111.4,9.21,5.51,1.67
+angle_H3_motif,47.7,42.4,5.3,5.43,0.98
+dist_H12_motif,11.18,12.26,-1.09,0.28,3.82
+dist_H3_motif,11.6,11.11,0.49,0.32,1.55
+dist_H3_H12,13.58,13.35,0.23,0.77,0.3
